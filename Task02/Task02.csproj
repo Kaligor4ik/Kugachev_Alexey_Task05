@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7EF3CF01-DFD8-4C57-BAFF-B7C482BD374F}</ProjectGuid>
+    <ProjectGuid>{FAD02191-2CE7-4913-9FC3-DE3AECB49796}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Task01</RootNamespace>
-    <AssemblyName>Task01</AssemblyName>
+    <RootNamespace>Task02</RootNamespace>
+    <AssemblyName>Task02</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,13 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseUserPrinter.cs" />
-    <Compile Include="Boss.cs" />
-    <Compile Include="EmploueePrinter.cs" />
-    <Compile Include="Employee.cs" />
+    <Compile Include="InputReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="Ring.cs" />
+    <Compile Include="Round.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
